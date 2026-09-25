@@ -13,9 +13,24 @@
 
 > Open the fridge. Snap a pic. Get **3 easy recipes** from what you already have. React Native CLI (**not Expo**). Google Gemini free vision API. No backend. No grocery list.
 
+---
+
+## 📸 Screenshots
+
 <p align="center">
-  <img src="src/assets/sample-fridge.png" alt="Sample fridge ingredients" width="280" />
+  <img src="docs/screenshots/banner.png" alt="FridgeCook Home and Result screens" width="100%" />
 </p>
+
+<p align="center">
+  <img src="docs/screenshots/home.png" alt="Home — drop a fridge pic" width="200" />
+  <img src="docs/screenshots/home-ready.png" alt="Home — sample fridge selected" width="200" />
+  <img src="docs/screenshots/result.png" alt="Result — three recipe cards" width="200" />
+  <img src="docs/screenshots/result-recipes.png" alt="Result — scrolled recipe details" width="200" />
+</p>
+
+| 🏠 Home | ✨ Home (sample) | 🍽️ Result | 🥗 Result (more) |
+|:-:|:-:|:-:|:-:|
+| Drop a fridge pic | Sample ingredients loaded | Spotted foods + first recipes | Third recipe card |
 
 ---
 
@@ -88,7 +103,7 @@ Restart Metro after changing `.env`.
 - TypeScript
 - React Navigation 7
 - `react-native-image-picker`
-- Gemini 2.0 Flash (`inline_data` image)
+- Gemini 3.1 Flash Lite (`inline_data` image)
 
 ---
 
