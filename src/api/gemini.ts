@@ -1,7 +1,7 @@
 import {GEMINI_API_KEY} from '@env';
 import {CookResult, DietMode, Recipe} from '../types';
 
-const GEMINI_MODEL = 'gemini-2.0-flash';
+const GEMINI_MODEL = 'gemini-3.1-flash-lite';
 const GEMINI_URL = `https://generativelanguage.googleapis.com/v1beta/models/${GEMINI_MODEL}:generateContent`;
 
 const COOK_PROMPT = `You are a friendly home cook. Look at this fridge photo (or ingredient list) and invent exactly 3 simple recipes.
